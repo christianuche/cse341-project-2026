@@ -30,7 +30,7 @@ mongodb.initDb((err) => {
     if (err) {
         console.log(err);
     } else {
-        // ✅ Use lowercase for the `port` here
+        // ✅ I used lowercase for the `port` here
         app.listen(port, () => {
             console.log(`Database is listening and Node is running on port ${port}`);
         });
