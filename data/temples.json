@@ -1,0 +1,32 @@
+[
+    {
+        "_id": {
+            "$oid": "6728f1b300e42908276215a1"
+        },
+        "templeName": "Salt Lake Temple",
+        "location": "Salt Lake City, Utah, USA",
+        "dedicated": "April 6, 1893",
+        "area": "253,015 sq ft",
+        "imageUrl": "https://churchofjesuschristtemples.org/assets/img/temples/salt-lake-temple/salt-lake-temple-1.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "6728f1b300e42908276215a2"
+        },
+        "templeName": "Accra Ghana Temple",
+        "location": "Accra, Ghana",
+        "dedicated": "January 11, 2004",
+        "area": "17,500 sq ft",
+        "imageUrl": "https://churchofjesuschristtemples.org/assets/img/temples/accra-ghana-temple/accra-ghana-temple-1.jpg"
+    },
+    {
+        "_id": {
+            "$oid": "6728f1b300e42908276215a3"
+        },
+        "templeName": "Aba Nigeria Temple",
+        "location": "Aba, Nigeria",
+        "dedicated": "August 7, 2005",
+        "area": "19,000 sq ft",
+        "imageUrl": "https://churchofjesuschristtemples.org/assets/img/temples/aba-nigeria-temple/aba-nigeria-temple-1.jpg"
+    }
+]

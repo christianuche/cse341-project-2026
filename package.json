@@ -2,7 +2,9 @@
   "dependencies": {
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "mongoose": "^9.6.2"
+    "mongoose": "^9.6.2",
+    "swagger-autogen": "^2.23.7",
+    "swagger-ui-express": "^5.0.1"
   },
   "name": "cse341-project-2026",
   "version": "1.0.0",
