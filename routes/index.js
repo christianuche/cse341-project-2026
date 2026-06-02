@@ -1,12 +1,37 @@
 const router = require("express").Router();
-router.use("/", require("./swagger"));
+const passport = require("passport");
 
-router.get("/", (req, res) => {
-    //#swagger.tags = ['Home Page']
-    res.send("Welcome to the Home Page!");
+// ---------------------------
+// Swagger Documentation Route
+// ---------------------------
+router.use("/api-docs", require("./swagger")); 
+
+// ---------------------------
+// API Routes
+// ---------------------------
+router.use("/students", require("./students"));
+router.use("/courses", require("./courses"));
+router.use("/department", require("./departments"));
+router.use("/teachers", require("./teachers"));
+
+// ---------------------------
+// Authentication Routes
+// ---------------------------
+router.get("/login", passport.authenticate("github"));
+
+router.get("/logout", (req, res, next) => {
+  req.logout(function (err) {
+    if (err) return next(err);
+    req.session.destroy();     // <-- clean logout
+    res.redirect("/");
+  });
 });
-router.use("/users", require("./users"));
-router.use("/contacts", require("./contacts"));
-router.use("/temples", require("./temples"));
+
+// ---------------------------
+// Optional home route
+// ---------------------------
+router.get("/", (req, res) => {
+  res.send("Welcome to the School API!");
+});
 
 module.exports = router;

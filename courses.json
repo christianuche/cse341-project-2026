@@ -1,0 +1,22 @@
+{
+  "courses": [
+    {
+      "name": "Introduction to Programming",
+      "code": "CSC101",
+      "unit": 3,
+      "instructor": "Dr. Benson"
+    },
+    {
+      "name": "Database Management Systems",
+      "code": "CSC201",
+      "unit": 3,
+      "instructor": "Mrs. Alonge"
+    },
+    {
+      "name": "Web Development",
+      "code": "CSC205",
+      "unit": 2,
+      "instructor": "Mr. James"
+    }
+  ]
+}

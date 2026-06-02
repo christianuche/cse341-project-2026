@@ -1,0 +1,25 @@
+{
+  "students": [
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "age": 18,
+      "email": "john.doe@example.com",
+      "courses": ["CSC101", "CSC201"]
+    },
+    {
+      "firstName": "Mary",
+      "lastName": "Okafor",
+      "age": 19,
+      "email": "mary.okafor@example.com",
+      "courses": ["CSC101", "CSC205"]
+    },
+    {
+      "firstName": "Samuel",
+      "lastName": "Adeyemi",
+      "age": 21,
+      "email": "samuel.adeyemi@example.com",
+      "courses": ["CSC201"]
+    }
+  ]
+}
