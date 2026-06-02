@@ -1,12 +1,12 @@
 const swaggerAutogen = require('swagger-autogen')();
 
 const doc = {
-    info: {
-        title: 'CSE341 REST API',
-        description: 'A simple REST API for managing the database',
-    },
-    host: 'localhost:3000',
-    schemes: ['http'],
+  info: {
+    title: "CSE341 REST API",
+    description: "A simple REST API for managing the database",
+  },
+  host: "cse341-project-2026.onrender.com",
+  schemes: ["https"],
 };
 
 const outputFile = './swagger.json';
